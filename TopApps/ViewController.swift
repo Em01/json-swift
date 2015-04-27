@@ -20,7 +20,9 @@ class ViewController: UIViewController {
             if let appName = json["feed"]["entry"][0]["im:name"]["label"].string {
                 println("SwiftyJSON: \(appName)")
             }
+            
         }
+    }
 }
 
 

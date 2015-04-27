@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		02753C6B19E63FEF00208E21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02753C6A19E63FEF00208E21 /* ViewController.swift */; };
-		854EB1C11AEE87EC00F31A51 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854EB1C01AEE87EC00F31A51 /* SwiftyJSON.swift */; };
 		9240066419CABECA00371784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9240066319CABECA00371784 /* AppDelegate.swift */; };
 		9240066919CABECA00371784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9240066719CABECA00371784 /* Main.storyboard */; };
 		9240066B19CABECA00371784 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9240066A19CABECA00371784 /* Images.xcassets */; };
@@ -30,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		02753C6A19E63FEF00208E21 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		854EB1C01AEE87EC00F31A51 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = TopApps/SwiftyJSON.swift; sourceTree = "<group>"; };
+		854EB1C41AEE8DF100F31A51 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		9240065E19CABECA00371784 /* TopApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9240066219CABECA00371784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9240066319CABECA00371784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +64,7 @@
 		9240065519CABECA00371784 = {
 			isa = PBXGroup;
 			children = (
-				854EB1C01AEE87EC00F31A51 /* SwiftyJSON.swift */,
+				854EB1C41AEE8DF100F31A51 /* Podfile */,
 				9240066019CABECA00371784 /* TopApps */,
 				9240067619CABECA00371784 /* TopAppsTests */,
 				9240065F19CABECA00371784 /* Products */,
@@ -224,7 +223,6 @@
 				02753C6B19E63FEF00208E21 /* ViewController.swift in Sources */,
 				9240068619CABF0A00371784 /* AppModel.swift in Sources */,
 				9240066419CABECA00371784 /* AppDelegate.swift in Sources */,
-				854EB1C11AEE87EC00F31A51 /* SwiftyJSON.swift in Sources */,
 				9240068719CABF0A00371784 /* DataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

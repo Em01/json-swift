@@ -47,4 +47,15 @@ class DataManager {
     
     loadDataTask.resume()
   }
+    
+    class func getTopAppsDataFromItunesWithSuccess(success: ((iTunesData: NSData!) -> Void)) {
+        //1
+        loadDataFromURL(NSURL(string: TopAppURL)!, completion:{(data, error) -> Void in
+            //2
+            if let urlData = data {
+                //3
+                success(iTunesData: urlData)
+            }
+        })
+    }
 }
