@@ -30,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		02753C6A19E63FEF00208E21 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		854EB1C01AEE87EC00F31A51 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		854EB1C01AEE87EC00F31A51 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = TopApps/SwiftyJSON.swift; sourceTree = "<group>"; };
 		9240065E19CABECA00371784 /* TopApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9240066219CABECA00371784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9240066319CABECA00371784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +65,7 @@
 		9240065519CABECA00371784 = {
 			isa = PBXGroup;
 			children = (
+				854EB1C01AEE87EC00F31A51 /* SwiftyJSON.swift */,
 				9240066019CABECA00371784 /* TopApps */,
 				9240067619CABECA00371784 /* TopAppsTests */,
 				9240065F19CABECA00371784 /* Products */,
@@ -83,7 +84,6 @@
 		9240066019CABECA00371784 /* TopApps */ = {
 			isa = PBXGroup;
 			children = (
-				854EB1C01AEE87EC00F31A51 /* SwiftyJSON.swift */,
 				9240068919CABF1F00371784 /* TopApps.json */,
 				9240066319CABECA00371784 /* AppDelegate.swift */,
 				02753C6A19E63FEF00208E21 /* ViewController.swift */,
